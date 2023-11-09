@@ -9,9 +9,8 @@ func sha1(fileName string) (string, error) {
 	}
 
 	defer file.Close()
-	return nil, nil
+	return "", nil
 }
 
 func main() {
-	file, err := os.Open("sha1file")
 }
